@@ -1,0 +1,71 @@
+date,item no,item name,purpose,status,qty input,qty output,person in charge
+2023-06-06,ITEM001,Hammer,Maintenance,in,11,0,Sarah Wilson
+2023-06-07,ITEM002,Nails,-,out,100,0,William Martinez
+2023-06-10,ITEM002,Nails,Construction,out,0,7,Michael Brown
+2024-02-25,ITEM003,Screwdriver,Renovation,in,30,0,James Anderson
+2024-07-22,ITEM004,Drill,-,in,40,0,Emily Davis
+2024-11-20,ITEM004,Drill,Maintenance,out,0,27,James Anderson
+2023-10-15,ITEM005,Wrench,Construction,in,50,0,James Anderson
+2022-12-10,ITEM006,Plank Wood,-,in,200,0,Lindsay McConnor
+2023-05-14,ITEM006,Plank Wood,Renovation,out,0,30,Linda Young
+2024-04-04,ITEM007,Paint,Maintenance,in,27,0,Christopher Scott
+2022-05-11,ITEM008,Brush,-,in,30,0,Jane Doe
+2023-07-10,ITEM008,Brush,Construction,out,0,19,Jane Smith
+2023-10-28,ITEM009,Shovel,Renovation,in,18,0,Michael Brown
+2024-02-15,ITEM010,Gloves,-,in,30,0,Christopher
+2024-03-30,ITEM010,Gloves,Maintenance,out,0,19,David Lee
+2023-04-16,ITEM011,Cement,Construction,in,8,0,William Martinez
+2023-02-01,ITEM012,Bricks,-,in,300,0, David Lee
+2023-06-09,ITEM012,Bricks,Renovation,out,0,29,Thomas Harris
+2023-06-04,ITEM013,Tile Cutter,Maintenance,in,12,0,Sarah Wilson
+2023-07-04,ITEM014,Safety Glasses,-,in,20,0,Linda Young
+2023-10-05,ITEM014,Safety Glasses,Construction,out,0,5,Emily Davis
+2024-02-10,ITEM015,Tape Measure,Renovation,in,7,0,Sarah Wilson
+2023-12-17,ITEM016,Level,-,in,30,0,Walker Alan
+2024-04-07,ITEM016,Level,Maintenance,out,0,28,Charles Walker
+2023-09-30,ITEM017,Screw,Construction,in,28,0,John Doe
+2023-01-27,ITEM018,Nuts,-,in,30,0,Elena
+2024-03-27,ITEM018,Nuts,Renovation,out,0,14,Helen Green
+2024-01-12,ITEM019,Plywood,Maintenance,in,80,0,Sarah Wilson
+2024-05-29,ITEM020,Sandpaper,-,in,25,0,Christopher Scott
+2024-11-17,ITEM020,Sandpaper,Construction,out,0,22,Christopher Scott
+2025-02-14,ITEM023,Paint Roller,New Product,new,25,0,Maritza Khansa
+2025-02-14,ITEM024,PVC Pipe,New Product,new,15,0,Maritza Khansa
+2025-02-14,ITEM024,PVC Pipe,Construction,out,0,15,Maritza Khansa
+2025-02-14,ITEM024,PVC Pipe,-,in,35,0,Maritza Khansa
+2025-02-14,ITEM025,Saw,New Product,new,10,0,Maritza Khansa
+2025-02-14,ITEM026,Circular Saw,-,new,8,0,Maritza Khansa
+2025-02-17,ITEM027,Sink,-,new,10,0,Maritza Khansa
+2025-02-17,ITEM008,Brush,Maintenance,out,0,2,mas bowo
+2025-02-18,ITEM008,Brush,Maintenance,out,0,8,Maritza Khansa
+2025-02-14,ITEM021,Electric Saw,-,in,20,0,Maritza Khansa
+2025-02-19,ITEM001,Hammer,Maintenance,out,0,1,Maritza Khansa
+2025-02-19,ITEM008,Brush,-,in,20,0,Maritza Khansa
+2025-02-19,ITEM016,Level,-,in,10,0,Joe
+2025-02-20,ITEM026,Duct Tape,-,in,3,0,Jane Doe
+2025-02-20,ITEM007,Paint,Renovation,out,0,7,
+2025-02-20,ITEM007,Paint,Renovation,out,0,7,Jane Doe
+2025-02-20,ITEM007,Paint,-,in,7,0,John Doe
+2025-02-20,ITEM002,Nails,Construction,out,0,3,Maritza 
+2025-02-20,ITEM004,Drill,-,in,7,0,John Doe
+2025-02-20,ITEM008,Brush,Construction,out,0,1,John Doe
+2025-02-20,ITEM009,Shovel,-,in,2,0,John Doe
+2025-02-20,ITEM001,Hammer,-,in,5,0,Maritza 
+2025-02-20,ITEM016,Level,Construction,out,0,2,John Doe
+2025-02-20,ITEM001,Hammer,-,out,0,1,Jane Doe
+2025-02-20,ITEM001,Hammer,-,in,1,0,Jane Doe
+2025-02-21,ITEM015,Tape Measure,-,in,3,0,Jane Doe
+2025-02-21,ITEM001,Hammer,-,out,0,1,Jane Doe
+2025-02-21,ITEM031,Lamp,-,new,15,0,Jane Doe
+2025-02-21,ITEM032,Ladder,-,new,15,0,Jane Doe
+2025-02-21,ITEM023,Paint Roller,-,out,0,1,Jane Doe
+2025-02-21,ITEM001,Hammer,-,in,1,0,Jane Doe
+2025-02-21,ITEM001,Hammer,-,in,1,0,Maritza
+2025-02-21,ITEM001,Hammer,-,in,4,0,Maritza
+2025-02-21,ITEM008,Brush,-,in,2,0,Maritza
+2025-02-21,ITEM008,Brush,-,out,0,1,Jane Doe
+2025-02-21,ITEM001,Hammer,-,out,0,1,Maritza
+2025-02-21,ITEM034,Park Lamp,-,new,5,0,Jane Doe
+2025-02-24,ITEM035,Hose,-,new,10,0,Jane Doe
+2025-02-24,ITEM010,Gloves,-,in,2,0,Maritza
+2025-02-24,ITEM011,Cement,Construction,out,0,5,Maritza
