@@ -536,6 +536,9 @@ if page == "Register New Product":
                     new_item_name = st.text_input("New Item Name", value=None)
                     new_item_quantity = st.number_input("Initial Quantity", min_value=0, step=1, value=0, placeholder='0')
                     purpose = st.selectbox('Select Purpose:', ['-', 'Maintenance', 'Construction', 'Renovation'])
+                    
+                    st.info(f"Image will be saved as '{new_item_number}.jpg' to match the product number")
+                    st.warning("Please make sure the image name matches the product name for better organization")
                     uploaded_file = st.file_uploader("Upload Product Image", type=['png', 'jpg', 'jpeg'])
                     if uploaded_file:
                         st.image(uploaded_file, caption="Preview", width=200)  # Preview gambar
