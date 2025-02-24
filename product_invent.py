@@ -2,6 +2,7 @@ import streamlit as st
 import os
 import pandas as pd
 from datetime import datetime
+from PIL import Image
 
 # Inisialisasi DataFrames
 stocklist = pd.read_csv('toko_bangunan.csv')
@@ -353,7 +354,29 @@ if page == "Main Page":
     if st.session_state.waiting_for_scan:
         scan()
 
+    if not os.path.exists('item_images'):
+        os.makedirs('item_images')
 
+    def save_uploaded_image(uploaded_file, item_number):
+        try:
+            # Buka gambar menggunakan PIL
+            image = Image.open(uploaded_file)
+            
+            # Convert ke RGB jika dalam mode RGBA
+            if image.mode == 'RGBA':
+                image = image.convert('RGB')
+                
+            # Resize gambar jika terlalu besar (opsional)
+            max_size = (800, 800)  # Maximum dimensions
+            image.thumbnail(max_size, Image.LANCZOS)
+            
+            # Simpan gambar
+            save_path = os.path.join("item_images", f"{item_number}.jpg")
+            image.save(save_path, "JPEG", quality=85)
+            return True, "Image saved successfully"
+        except Exception as e:
+            return False, str(e)
+            
 # Halaman lainnya tetap sama seperti sebelumnya
 if page == "Register New Product":
     @st.dialog("Confirm Transaction")
